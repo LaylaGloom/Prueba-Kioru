@@ -1,0 +1,55 @@
+
+html, body, p{
+	font-size: 1rem;
+}
+
+
+/*margenes*/
+.mt-0{
+	margin-top: 0;
+}
+/*justify-content*/
+.justify-content-center{
+	display: flex;
+	justify-content: center;
+}
+
+/*iconos*/
+.icon{
+	width: 3rem;
+	height: 3rem;
+	margin: 1rem;
+}
+.icon.result{
+	width: 4rem;
+	height: 4rem;
+	align-self: center;
+	transition: 5s;
+}
+
+.icon-contenedor{
+	display: flex;
+	flex-direction: column;
+}
+
+#usuario{
+	border-right: 2px solid #004d40;
+}
+
+
+
+#resultados{
+	border-bottom: 2px solid #004d40;
+}
+/*maquina icons*/
+#maquina{
+	align-items: flex-end;
+}
+
+/*user icons*/
+
+
+/*display flex*/
+/*flex column*/
+
+

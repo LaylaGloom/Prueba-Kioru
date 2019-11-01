@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego de piedra, papel, tijera</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://kit.fontawesome.com/ea64cda51b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<header class="card-panel teal lighten-2 mt-0">
+		<h1 class="center-align">Piedra, papel o tijera</h1>
+	</header>
+	<main class="container">
+		<div class="row">
+			<h3 class="center-align">Marcador</h3>
+			<div class="col s6">
+				<p class="center-align">Jugador:</p>
+				<p class="center-align" id="jugador"></p>
+			</div>
+			<div class="col s6">
+				<p class="center-align">Máquina:</p>
+				<p class="center-align" id="compu"></p>
+			</div>
+		</div>
+		<div id="resultados" class="row">
+			<h4 id="frase" class="center-align"></h4>
+			<div  class="col s6 justify-content-center">
+				<img id="r-user" class="icon result" src="" alt="">
+			</div>
+			<div class="col s6 justify-content-center">
+				<img id="r-compu" class="icon result" src="" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<div id="usuario" class="col s6 icon-contenedor">
+				<img id="iu-1" class="icon" src="../images/piedra.svg" alt="">
+				<img id="iu-2" class="icon" src="../images/papel.svg" alt="">
+				<img id="iu-3" class="icon" src="../images/tijeras.svg" alt="">
+			</div>
+			<div id="maquina" class="col s6 icon-contenedor">
+				<img id="ic-1" class="icon" src="../images/piedra.svg" alt="">
+				<img id="ic-2" class="icon" src="../images/papel.svg" alt="">
+				<img id="ic-3" class="icon" src="../images/tijeras.svg" alt="">
+			</div>
+		</div>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/papel.js"></script>
+</body>
+</html>
